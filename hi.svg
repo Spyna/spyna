@@ -48,8 +48,11 @@
   </g>
   <g font-family="Montserrat" font-size="25.4px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
     <g>
-      <text class="animate" x="45.890739" y="250" style="line-height:1;animation: appear 1.5s ease-in-out forwards;animation-delay: 3.5s" xml:space="preserve">
-        <tspan x="45.890739" y="250" fill="#ffffff" font-size="14px" stroke-width=".26458">what about you?</tspan>
+      <text class="animate" x="40" y="250" style="line-height:1;animation: appear 1.5s ease-in-out forwards;animation-delay: 3.5s" xml:space="preserve">
+        <tspan x="40" y="250" fill="#ffffff" font-size="14px" stroke-width=".26458">What about you?</tspan>
+      </text>
+      <text class="animate" x="400" y="40" style="line-height:1;animation: appear 1.5s ease-in-out forwards;animation-delay: 3.5s" xml:space="preserve">
+        <tspan x="400" y="40" fill="#ffffff" font-size="14px" stroke-width=".26458">Leave a comment ↑</tspan>
       </text>
     </g>
   </g>
