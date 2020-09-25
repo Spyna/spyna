@@ -31,24 +31,24 @@
       }
     }
     #arrow {
-      animation: shake-vertical 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) 5s both;
+      animation: shake-vertical .7s cubic-bezier(0.455, 0.030, 0.515, 0.955) 5s 2 both;
     }
      
      #comment {
         opacity:0;
-        animation:fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both forwards;
+        animation:fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 4s forwards;
      }
 
-    @keyframes shake-vertical {
+   @keyframes shake-vertical {
       0%,
       100% {
          transform: translateY(0);
       }
       
       50% {
-         transform: translateX(-4x);
+         transform: translateY(-4px);
       }
-
+   }
      @keyframes fade-in {
          0% {
             opacity: 0;
