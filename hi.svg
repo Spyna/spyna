@@ -69,7 +69,7 @@
       }
     }
     #arrow {
-      animation: shake-vertical 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+      animation: shake-vertical 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) 5s both;
     }
 
     @keyframes shake-vertical {
@@ -240,6 +240,6 @@
   </g>
   <path id="arrow" 
      d="m 490.83422,8.3994902 5.02507,10.2122048 m -4.86296,13.778373 -0.16211,-23.9905778 -5.02505,10.6985008"
-     style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      />
 </svg>
