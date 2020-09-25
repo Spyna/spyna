@@ -69,9 +69,14 @@
       }
     }
     #arrow {
-      animation:fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both, shake-vertical 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) 5s both;
+      animation: shake-vertical 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) 5s both;
      
     }
+     
+     #comment {
+     opacity:0
+     animation:fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 5s both
+     }
 
     @keyframes shake-vertical {
       0%,
@@ -94,6 +99,15 @@
       }
       90% {
                 transform: translateX(-3.3px);
+      }
+
+     @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
       }
 
   </style>
@@ -202,6 +216,7 @@
       </text>
     </g>
   </g>
+   <g id="comment">
   <g
      font-family="Montserrat"
      font-size="25.4px"
@@ -243,4 +258,5 @@
      d="m 490.83422,8.3994902 5.02507,10.2122048 m -4.86296,13.778373 -0.16211,-23.9905778 -5.02505,10.6985008"
      style="fill:none;stroke:#ffffff;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      />
+   </g>
 </svg>
