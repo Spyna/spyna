@@ -1,5 +1,29 @@
-<svg width="1920" height="1080" version="1.1" viewBox="0 0 508 285.75" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:100%">
-  <style>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg47"
+   viewBox="0 0 505.88336 285.75"
+   version="1.1"
+   height="1080"
+   width="1912">
+  <metadata
+     id="metadata51">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <style
+     id="style2">
     .animate {
       overflow: hidden;
       border-right: .15em solid orange;
@@ -20,40 +44,160 @@
         transform: translateX(0);
       }
     }
+    #arrow {
+      animation: shake-vertical 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+    }
+
+    @keyframes shake-vertical {
+      0%,
+      100% {
+                transform: translateY(0);
+      }
+      10%,
+      30%,
+      50%,
+      70% {
+                transform: translateY(-8px);
+      }
+      20%,
+      40%,
+      60% {
+                transform: translateY(8px);
+      }
+      80% {
+                transform: translateY(6.4px);
+      }
+      90% {
+                transform: translateY(-6.4px);
+      }
+
   </style>
-  <defs>
-    <linearGradient id="linearGradient3962" x1="0" x2="490.75" y1="0" y2="226.07" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#004ca1" stop-opacity=".68627" offset="0" />
-      <stop stop-color="#00c4e0" stop-opacity=".89804" offset="1" />
+  <defs
+     id="defs9">
+    <linearGradient
+       gradientUnits="userSpaceOnUse"
+       y2="226.07001"
+       y1="0"
+       x2="490.75"
+       x1="0"
+       id="linearGradient3962">
+      <stop
+         id="stop4"
+         offset="0"
+         stop-opacity=".68627"
+         stop-color="#004ca1" />
+      <stop
+         id="stop6"
+         offset="1"
+         stop-opacity=".89804"
+         stop-color="#00c4e0" />
     </linearGradient>
   </defs>
-  <g transform="translate(0 -11.25)">
-    <rect x=".1322" y="11.514" width="508" height="285.49" fill="url(#linearGradient3962)" opacity=".981" style="paint-order:stroke fill markers" />
+  <g
+     id="g13"
+     transform="translate(0,-11.25)">
+    <rect
+       id="rect11"
+       style="opacity:0.981;fill:url(#linearGradient3962);paint-order:stroke fill markers"
+       height="285.48999"
+       width="508"
+       y="11.514"
+       x="0.1322" />
   </g>
-  <g font-family="Montserrat" font-size="25.4px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
-    <g>
-      <text class="animate" x="45.890739" y="60" style="line-height:1.25;animation: appear 1s ease-in-out forwards;" xml:space="preserve">
-        <tspan x="45.890739" y="60" fill="#ffffff" font-size="25.4px" stroke-width=".26458">Hi!</tspan>
-      </text>
-      <text class="animate" x="45.890739" y="100" style="line-height:1.25;animation: appear 1s ease-in-out forwards;animation-delay: 1s" xml:space="preserve">
-        <tspan x="45.890739" y="100" fill="#ffffff" font-size="25.4px" stroke-width=".26458">I am Lorenzo Spinelli</tspan>
-      </text>
-      <text class="animate" x="47.624996" y="130" style="line-height:1.25;animation: appear 1.2s ease-in-out forwards;animation-delay: 2s" xml:space="preserve">
-        <tspan x="47.624996" y="130" fill="#ffffff" font-size="25.4px" stroke-width=".26458">A fullstack web developer</tspan>
-      </text>
-      <text class="animate" x="45.877335" y="160" style="line-height:1.25;animation: appear 1s ease-in-out forwards;animation-delay: 2.5s" xml:space="preserve">
-        <tspan x="45.877335" y="160" fill="#ffffff" font-size="25.4px" stroke-width=".26458">based in Florence, Italy</tspan>
-      </text>
+  <g
+     style="font-size:25.39999962px;font-family:Montserrat;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458001"
+     id="g33"
+     word-spacing="0px"
+     letter-spacing="0px"
+     font-size="25.4px">
+    <g
+       id="g31">
+      <text
+         id="text17"
+         xml:space="preserve"
+         style="line-height:1.25;letter-spacing:0.15000001em;white-space:nowrap;overflow:hidden"
+         y="60"
+         x="45.890739"
+         class="animate"> <tspan
+   style="font-size:25.39999962px;fill:#ffffff;stroke-width:0.26458001"
+   id="tspan15"
+   font-size="25.4px"
+   y="60"
+   x="45.890739">Hi!</tspan></text>
+      <text
+         id="text21"
+         xml:space="preserve"
+         style="line-height:1.25;letter-spacing:0.15000001em;white-space:nowrap;overflow:hidden"
+         y="100"
+         x="45.890739"
+         class="animate"> <tspan
+   style="font-size:25.39999962px;fill:#ffffff;stroke-width:0.26458001"
+   id="tspan19"
+   font-size="25.4px"
+   y="100"
+   x="45.890739">I am Lorenzo Spinelli</tspan></text>
+      <text
+         id="text25"
+         xml:space="preserve"
+         style="line-height:1.25;letter-spacing:0.15000001em;white-space:nowrap;overflow:hidden"
+         y="130"
+         x="47.624996"
+         class="animate"> <tspan
+   style="font-size:25.39999962px;fill:#ffffff;stroke-width:0.26458001"
+   id="tspan23"
+   font-size="25.4px"
+   y="130"
+   x="47.624996">A fullstack web developer</tspan></text>
+      <text
+         id="text29"
+         xml:space="preserve"
+         style="line-height:1.25;letter-spacing:0.15000001em;white-space:nowrap;overflow:hidden"
+         y="160"
+         x="45.877335"
+         class="animate"> <tspan
+   style="font-size:25.39999962px;fill:#ffffff;stroke-width:0.26458001"
+   id="tspan27"
+   font-size="25.4px"
+   y="160"
+   x="45.877335">based in Florence, Italy</tspan></text>
     </g>
   </g>
-  <g font-family="Montserrat" font-size="25.4px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
-    <g>
-      <text class="animate" x="40" y="250" style="line-height:1;animation: appear 1.5s ease-in-out forwards;animation-delay: 3.5s" xml:space="preserve">
-        <tspan x="40" y="250" fill="#ffffff" font-size="14px" stroke-width=".26458">What about you?</tspan>
-      </text>
-      <text class="animate" x="400" y="40" style="line-height:1;animation: appear 1.5s ease-in-out forwards;animation-delay: 3.5s" xml:space="preserve">
-        <tspan x="400" y="40" fill="#ffffff" font-size="14px" stroke-width=".26458">Leave a comment ↑</tspan>
-      </text>
+  <g
+     style="font-size:25.39999962px;font-family:Montserrat;letter-spacing:0px;word-spacing:0px;stroke-width:0.26458001"
+     id="g45"
+     word-spacing="0px"
+     letter-spacing="0px"
+     font-size="25.4px">
+    <g
+       id="g43">
+      <text
+         id="text37"
+         xml:space="preserve"
+         style="line-height:1;letter-spacing:0.15000001em;white-space:nowrap;overflow:hidden"
+         y="250"
+         x="40"
+         class="animate"> <tspan
+   style="font-size:14px;fill:#ffffff;stroke-width:0.26458001"
+   id="tspan35"
+   font-size="14px"
+   y="250"
+   x="40">What about you?</tspan></text>
+      <text
+         id="text41"
+         xml:space="preserve"
+         style="line-height:1;letter-spacing:0.15000001em;white-space:nowrap;overflow:hidden"
+         y="19.826714"
+         x="299.59207"
+         > <tspan
+   style="font-size:14px;fill:#ffffff;stroke-width:0.26458001"
+   id="tspan39"
+   font-size="14px"
+   y="19.826714"
+   x="299.59207">Leave a comment</tspan></text>
     </g>
   </g>
+  <path
+     id="arrow"
+     d="M 489.08375,44.674516 V 25.925659 l -3.92584,-8.7e-5 5.94901,-20.4981736 6.10024,20.4976466 h -3.83924 l -0.0243,19.413146 z"
+     style="fill:none;stroke:#f6feff;stroke-width:0.96076196;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
 </svg>
