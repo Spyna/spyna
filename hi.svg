@@ -1,0 +1,56 @@
+<svg width="1920" height="1080" version="1.1" viewBox="0 0 508 285.75" xmlns="http://www.w3.org/2000/svg" xmlns:osb="http://www.openswatchbook.org/uri/2009/osb" xmlns:xlink="http://www.w3.org/1999/xlink" style="width:100%">
+  <style>
+    .animate {
+      overflow: hidden;
+      border-right: .15em solid orange;
+      white-space: nowrap; 
+      margin: 0 auto;
+      letter-spacing: .15em;
+      transform: translateX(-9000px);
+    }
+
+    @keyframes appear {
+      from {
+        opacity:0;
+        transform: translateX(-500px);
+      }
+      
+      to {
+        opacity:1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+  <defs>
+    <linearGradient id="linearGradient3962" x1="0" x2="490.75" y1="0" y2="226.07" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#004ca1" stop-opacity=".68627" offset="0" />
+      <stop stop-color="#00c4e0" stop-opacity=".89804" offset="1" />
+    </linearGradient>
+  </defs>
+  <g transform="translate(0 -11.25)">
+    <rect x=".1322" y="11.514" width="508" height="285.49" fill="url(#linearGradient3962)" opacity=".981" style="paint-order:stroke fill markers" />
+  </g>
+  <g font-family="Montserrat" font-size="25.4px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+    <g>
+      <text class="animate" x="45.890739" y="60" style="line-height:1.25;animation: appear 1s ease-in-out forwards;" xml:space="preserve">
+        <tspan x="45.890739" y="60" fill="#ffffff" font-size="25.4px" stroke-width=".26458">Hi!</tspan>
+      </text>
+      <text class="animate" x="45.890739" y="100" style="line-height:1.25;animation: appear 1s ease-in-out forwards;animation-delay: 1s" xml:space="preserve">
+        <tspan x="45.890739" y="100" fill="#ffffff" font-size="25.4px" stroke-width=".26458">I am Lorenzo Spinelli</tspan>
+      </text>
+      <text class="animate" x="47.624996" y="130" style="line-height:1.25;animation: appear 1.2s ease-in-out forwards;animation-delay: 2s" xml:space="preserve">
+        <tspan x="47.624996" y="130" fill="#ffffff" font-size="25.4px" stroke-width=".26458">A fullstack web developer</tspan>
+      </text>
+      <text class="animate" x="45.877335" y="160" style="line-height:1.25;animation: appear 1s ease-in-out forwards;animation-delay: 2.5s" xml:space="preserve">
+        <tspan x="45.877335" y="160" fill="#ffffff" font-size="25.4px" stroke-width=".26458">based in Florence, Italy</tspan>
+      </text>
+    </g>
+  </g>
+  <g font-family="Montserrat" font-size="25.4px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+    <g>
+      <text class="animate" x="45.890739" y="250" style="line-height:1;animation: appear 1.5s ease-in-out forwards;animation-delay: 3.5s" xml:space="preserve">
+        <tspan x="45.890739" y="250" fill="#ffffff" font-size="14px" stroke-width=".26458">what about you?</tspan>
+      </text>
+    </g>
+  </g>
+</svg>
